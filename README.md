@@ -1,3 +1,4 @@
+![vertical-timeline](https://user-images.githubusercontent.com/62938641/125817695-c82972ca-c892-4699-b682-f9fbab67726e.png)
 # vertical-timeline
 
 ## Project setup
