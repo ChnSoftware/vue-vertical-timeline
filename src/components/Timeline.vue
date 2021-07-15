@@ -12,7 +12,10 @@
                 class="timeline__point timeline__point--bottom"
             ></div>
         </div>
-        <div class="timeline__component  timeline__component--bg item--3" :class="bottomMargin">
+        <div
+            class="timeline__component timeline__component--bg item--3"
+            :class="bottomMargin"
+        >
             <h2 class="timeline__title">{{ note.title }}</h2>
             <p class="timeline__paragraph">
                 {{ note.paragraph }}
@@ -47,8 +50,8 @@
                     "timeline__date--right": this.index % 2 === 0
                 }
             },
-            bottomMargin(){
-                return{
+            bottomMargin() {
+                return {
                     "timeline__component--bottom": this.length === this.index + 1
                 }
             }
@@ -81,8 +84,8 @@
         &__component {
             margin: 0 20px 20px 20px;
 
-             &--bottom{
-            margin-bottom: 0;
+            &--bottom {
+                margin-bottom: 0;
             }
 
             &--bg {
